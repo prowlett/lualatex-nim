@@ -1,0 +1,71 @@
+\documentclass{article}
+\usepackage{luacode}
+\usepackage{nimsticks}
+\begin{document}
+\begin{luacode}
+heaps={}
+for h=0,2 do
+    heaps[h]=math.random(3,7)
+end
+tex.sprint("\\nimgame{", heaps[0], ",",heaps[1], ",", heaps[2], "}")
+
+function nimtobin(heap)
+    bits={}
+    for b=2,0,-1 do
+        rem=math.fmod(heap,2)
+        bits[b]=rem
+        heap=(heap-rem)/2
+    end
+    return bits
+end
+
+function bintodec(heap)
+    return math.ceil(4*heap[0]+2*heap[1]+heap[2])
+end
+
+bitheaps={}
+for h=0,2 do
+    bitheaps[h]=nimtobin(heaps[h])
+end
+
+function nimsum(heaps)
+    bits={}
+    for b=2,0,-1 do
+        this=0
+        for h=0,#heaps do
+            this=this+heaps[h][b]
+        end
+        bits[b]=math.fmod(this,2)
+    end
+    return bits
+end
+
+X=nimsum(bitheaps)
+
+if bintodec(X)==0 then
+    tex.print("Nim sum is zero.")
+else
+
+    for b=2,0,-1 do
+        if X[b]==1 then
+            d=b
+        end
+    end
+    
+    for h=0,2 do
+        if bitheaps[h][d]==1 then
+            xk=bitheaps[h]
+        end
+    end
+    
+    sumparts={}
+    sumparts[0]=xk
+    sumparts[1]=X
+    yk=nimsum(sumparts)
+    
+    tex.sprint("Change ",bintodec(xk)," to ",bintodec(yk))
+
+end
+
+\end{luacode}
+\end{document}

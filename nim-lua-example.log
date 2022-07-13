@@ -1,0 +1,538 @@
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2022.2.21)  13 JUL 2022 14:44
+ restricted system commands enabled.
+**nim-lua-example.tex
+(./nim-lua-example.tex
+LaTeX2e <2021-11-15> patch level 1
+Lua module: luaotfload 2021-05-21 3.18 Lua based OpenType font support
+Lua module: lualibs 2021-05-20 2.74 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2021-05-20 2.74 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "/home/peter/software/texlive/2021/t
+exmf-var/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2021-05-20.lua" from kpse-res
+olved path "/home/peter/software/texlive/2021/texmf-dist/tex/luatex/luaotfload/f
+ontloader-2021-05-20.lua".
+Lua-only attribute luaotfload@noligature = 1
+Lua-only attribute luaotfload@syllabe = 2
+luaotfload | init : Context OpenType loader version 3.116
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' at position 1 in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 3
+luaotfload | conf : Root cache directory is "/home/peter/software/texlive/2021/t
+exmf-var/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
+Inserting `luaotfload.harf.finalize_vlist' at position 1 in `post_linebreak_filt
+er'.
+Inserting `luaotfload.harf.finalize_hlist' at position 2 in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' at position 1 in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' at position 1 in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' at position 1 in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 4
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
+t'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
+. L3 programming layer <2022-02-05>
+Inserting `tracingstacklevels' at position 1 in `input_level_string'.
+(/home/peter/software/texlive/2021/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/home/peter/software/texlive/2021/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from /home/peter/software/texlive/2
+021/texmf-var/luatex-cache/generic/names/luaotfload-names.luc)
+\c@part=\count183
+\c@section=\count184
+\c@subsection=\count185
+\c@subsubsection=\count186
+\c@paragraph=\count187
+\c@subparagraph=\count188
+\c@figure=\count189
+\c@table=\count190
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen137
+)
+(/home/peter/software/texlive/2021/texmf-dist/tex/lualatex/luacode/luacode.sty
+Package: luacode 2012/01/23 v1.2a lua-in-tex helpers (mpg)
+
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+(/home/peter/software/texlive/2021/texmf-dist/tex/luatex/luatexbase/luatexbase.
+sty
+Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
+
+(/home/peter/software/texlive/2021/texmf-dist/tex/luatex/ctablestack/ctablestac
+k.sty
+Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
+\@catcodetablestackcnt=\count191
+)
+\CatcodeTableOther=\catcodetable12
+\CatcodeTableExpl=\catcodetable13
+)
+\luacode@lines=\toks16
+\luacode@table@soft=\catcodetable14
+)
+(/home/peter/software/texlive/2021/texmf-dist/tex/latex/nimsticks/nimsticks.sty
+Package: nimsticks 2020/07/19 nimsticks 1.1
+(/home/peter/software/texlive/2021/texmf-dist/tex/latex/lcg/lcg.sty
+Package: lcg 2013/08/09 v1.3 generating random numbers
+
+(/home/peter/software/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+\f@rst=\count192
+\l@st=\count193
+\cr@nd=\count194
+
+Random number generator initialized to 0
+\c@rand=\count195
+Smallest possible random number: -100
+Largest possible random number: 100
+The pseudo random numbers will be stored in the LaTeX counter `rand'
+)
+(/home/peter/software/texlive/2021/texmf-dist/tex/latex/pgf/frontendlayer/tikz.
+sty
+(/home/peter/software/texlive/2021/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/home/peter/software/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfrcs.st
+y
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil
+-common.tex
+\pgfutil@everybye=\toks18
+\pgfutil@tempdima=\dimen138
+\pgfutil@tempdimb=\dimen139
+
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil
+-common-lists.tex))
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil
+-latex.def
+\pgfutil@abb=\box50
+)
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfrcs.
+code.tex
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/peter/software/texlive/2021/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.
+sty
+(/home/peter/software/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/home/peter/software/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/home/peter/software/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/home/peter/software/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 107.
+
+(/home/peter/software/texlive/2021/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2021/06/01 v1.2c Graphics/color driver for luatex
+))
+\Gin@req@height=\dimen140
+\Gin@req@width=\dimen141
+)
+(/home/peter/software/texlive/2021/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.
+sty
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
+s.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys
+.code.tex
+\pgfkeys@pathtoks=\toks19
+\pgfkeys@temptoks=\toks20
+
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys
+filtered.code.tex
+\pgfkeys@tmptoks=\toks21
+))
+\pgf@x=\dimen142
+\pgf@y=\dimen143
+\pgf@xa=\dimen144
+\pgf@ya=\dimen145
+\pgf@xb=\dimen146
+\pgf@yb=\dimen147
+\pgf@xc=\dimen148
+\pgf@yc=\dimen149
+\pgf@xd=\dimen150
+\pgf@yd=\dimen151
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count196
+\c@pgf@countb=\count197
+\c@pgf@countc=\count198
+\c@pgf@countd=\count199
+\t@pgf@toka=\toks22
+\t@pgf@tokb=\toks23
+\t@pgf@tokc=\toks24
+\pgf@sys@id@count=\count266
+
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgf.c
+fg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-luatex.def
+
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
+s-luatex.def
+File: pgfsys-luatex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
+s-common-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
+ssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count267
+\pgfsyssoftpath@bigbuffer@items=\count268
+)
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsy
+sprotocol.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/home/peter/software/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(/home/peter/software/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+e.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code
+.tex
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathcalc.
+code.tex
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathutil.
+code.tex)
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathparse
+r.code.tex
+\pgfmath@dimen=\dimen152
+\pgfmath@count=\count269
+\pgfmath@box=\box51
+\pgfmath@toks=\toks25
+\pgfmath@stack@operand=\toks26
+\pgfmath@stack@operation=\toks27
+)
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.code.tex
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.basic.code.tex)
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.trigonometric.code.tex)
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.random.code.tex)
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.comparison.code.tex)
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.base.code.tex)
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.round.code.tex)
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.misc.code.tex)
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunct
+ions.integerarithmetics.code.tex)))
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfloat
+.code.tex
+\c@pgfmathroundto@lastzeros=\count270
+))
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfint.code.
+tex)
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+epoints.code.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen153
+\pgf@picmaxx=\dimen154
+\pgf@picminy=\dimen155
+\pgf@picmaxy=\dimen156
+\pgf@pathminx=\dimen157
+\pgf@pathmaxx=\dimen158
+\pgf@pathminy=\dimen159
+\pgf@pathmaxy=\dimen160
+\pgf@xx=\dimen161
+\pgf@xy=\dimen162
+\pgf@yx=\dimen163
+\pgf@yy=\dimen164
+\pgf@zx=\dimen165
+\pgf@zy=\dimen166
+)
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+epathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen167
+\pgf@path@lasty=\dimen168
+)
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+epathusage.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen169
+\pgf@shorten@start@additional=\dimen170
+)
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+escopes.code.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box52
+\pgf@hbox=\box53
+\pgf@layerbox@main=\box54
+\pgf@picture@serial@count=\count271
+)
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+egraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen171
+)
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+etransformations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen172
+\pgf@pt@y=\dimen173
+\pgf@pt@temp=\dimen174
+)
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+equick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+eobjects.code.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+epathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+earrows.code.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen175
+)
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+eshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen176
+\pgf@sys@shading@range@num=\count272
+\pgf@shadingcount=\count273
+)
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+eimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+eexternal.code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box55
+))
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+elayers.code.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+etransparency.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+epatterns.code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcor
+erdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmodule
+shapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box56
+)
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmodule
+plot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/home/peter/software/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfco
+mp-version-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen177
+\pgf@nodesepend=\dimen178
+)
+(/home/peter/software/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfco
+mp-version-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+))
+(/home/peter/software/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgffor.st
+y
+(/home/peter/software/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfkeys.s
+ty
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys
+.code.tex))
+(/home/peter/software/texlive/2021/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code
+.tex))
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgffor.
+code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code
+.tex)
+\pgffor@iter=\dimen179
+\pgffor@skip=\dimen180
+\pgffor@stack=\toks28
+\pgffor@toks=\toks29
+))
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tik
+z/tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibr
+aryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count274
+\pgfplotmarksize=\dimen181
+)
+\tikz@lastx=\dimen182
+\tikz@lasty=\dimen183
+\tikz@lastxsaved=\dimen184
+\tikz@lastysaved=\dimen185
+\tikz@lastmovetox=\dimen186
+\tikz@lastmovetoy=\dimen187
+\tikzleveldistance=\dimen188
+\tikzsiblingdistance=\dimen189
+\tikz@figbox=\box57
+\tikz@figbox@bg=\box58
+\tikz@tempbox=\box59
+\tikz@tempbox@bg=\box60
+\tikztreelevel=\count275
+\tikznumberofchildren=\count276
+\tikznumberofcurrentchild=\count277
+\tikz@fig@count=\count278
+
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmodule
+matrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count279
+\pgfmatrixcurrentcolumn=\count280
+\pgf@matrix@numberofcolumns=\count281
+)
+\tikz@expandcount=\count282
+
+(/home/peter/software/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(/home/peter/software/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+))
+(/home/peter/software/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-lua
+tex.def
+File: l3backend-luatex.def 2022-02-07 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count283
+\l__pdf_internal_box=\box61
+) (./nim-lua-example.aux)
+\openout1 = nim-lua-example.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
+.
+
+(/home/peter/software/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+
+(/home/peter/software/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count284
+\scratchdimen=\dimen190
+\scratchbox=\box62
+\nofMPsegments=\count285
+\nofMParguments=\count286
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count287
+\MPscratchDim=\dimen191
+\MPnumerator=\count288
+\makeMPintoPDFobject=\count289
+\everyMPtoPDFconversion=\toks31
+)
+(/home/peter/software/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/home/peter/software/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sy
+s.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Random number generator initialized to 265090
+[1
+
+{/home/peter/software/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+] (./nim-lua-example.aux))
+
+Here is how much of LuaTeX's memory you used:
+ 12537 strings out of 477802
+ 100000,552014 words of node,token memory allocated
+ 413 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 5 attribute, 48 glue_spec,
+ 5 attribute_list, 2 write nodes
+   avail lists: 2:845,3:513,4:22,5:22,6:4,7:336,9:138,10:18
+ 32752 multiletter control sequences out of 65536+600000
+ 15 fonts using 723367 bytes
+ 115i,5n,111p,435b,572s stack positions out of 5000i,500n,10000p,200000b,80000s
+</home/peter/software/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmroman10
+-regular.otf>
+Output written on nim-lua-example.pdf (1 page, 4165 bytes).
+
+PDF statistics: 18 PDF objects out of 1000 (max. 8388607)
+ 11 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 131072)
+ 16 words of extra memory for PDF output out of 10000 (max. 100000000)
+
